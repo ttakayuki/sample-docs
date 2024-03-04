@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sample-docs"
+version = "0.1.0"
+description = ""
+authors = ["Takayuki Tozawa <t.tozawa@aist.go.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.12"
+mkdocs-redirects = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,24 @@
+site_name: Sample Document
+site_description: Sample Document, Japanese version
+site_author: ttakayuki
+repo_url: https://github.com/ttakayuki/sample-docs
+edit_uri: edit/master/ja/docs/
+nav:
+  - 'はじめに': 'index.md'
+theme:
+  name: 'material'
+  favicon: 'img/favicon.png'
+  logo: 'img/logo.png'
+  language: 'ja'
+  palette:
+    primary: 'red'
+  features:
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - codehilite
+  - attr_list
+  - footnotes
+plugins:
+  - search:
+      lang: ja
